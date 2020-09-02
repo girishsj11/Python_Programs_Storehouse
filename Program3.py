@@ -39,7 +39,7 @@ Only one valid answer exists.
 
 
 
-
+'''
 class Solution(object):
     def twoSum(self, nums, target):
         """
@@ -51,6 +51,33 @@ class Solution(object):
         for i in nums:
             temp = target - i
             if (temp in nums):
+                output.append(nums.index(i))
+                output.append(nums.index(temp))
+                break
+            else:
+                continue
+        return output
+        
+        
+'''
+
+
+class Solution(object):
+    def twoSum(self, nums, target):
+        """
+        :type nums: List[int]
+        :type target: int
+        :rtype: List[int]
+        """
+        output=list()
+        for i in nums:
+            temp = target - i
+            if(temp == i):
+                if(nums.count(i)>=2):
+                    output.append(nums.index(i))
+                else:
+                    continue
+            elif (temp in nums):
                 output.append(nums.index(i))
                 output.append(nums.index(temp))
                 break
