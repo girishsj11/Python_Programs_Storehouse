@@ -2,18 +2,18 @@
 ## Programs Motive
 
 
-***Program1.py***
+## ***Program1.py***
 
    Given a two list of numbers create a new list such that new list should contain only odd numbers from the first list and even numbers from the second list
 
 
 
-***Program2.py***
+## ***Program2.py***
 
    Convert two equal length lists into a dictionary
 
 
-***Program3.py***
+## ***Program3.py***
 
    **Leetcode :- First Program**
     Given an array of integers nums and and integer target, return the indices of the two numbers such that they add up to target.You may assume that each input would have exactly one solution, and you may not use the same element twice.You can return the answer in any order.
@@ -37,7 +37,7 @@ Only one valid answer exists.
 
 
 
-***Program4.py***
+## ***Program4.py***
 
    John works at a clothing store. He has a large pile of socks that he must pair by color for sale. Given an array of integers representing the color of each sock, 
 determine how many pairs of socks with matching colors there are.
