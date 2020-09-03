@@ -43,7 +43,38 @@ Return the total number of matching pairs of socks that John can sell.
 
 
 '''
-element_count = int(input("Enter the count of elements to be present in a list : "))
-input_list = list(map(int, input().rstrip().split()))
+def list_creation(element_count,input_list):
+    print("Enter the elements to be present in list : ")
+    for _ in range(element_count):
+        input_list.append(int(input()))
+    return input_list
 
+
+def sockMerchant(element_count, input_list):
+    elements = set()
+    count = 0
+    for i in range(element_count):
+        if(input_list.count(input_list[i])>=2):
+       
+            if(input_list[i] in elements):
+                continue
+            
+            else:
+                count+=(input_list.count(input_list[i])//2)
+                elements.add(input_list[i])
+        else:
+            continue
+          
+    return count
+        
+
+
+
+if __name__ == "__main__":
+    element_count = int(input("Enter the count of elements to be present in a list : "))
+    input_list = list()
+    input_list = list_creation(element_count, input_list)
+    output = sockMerchant(element_count, input_list)
+    print("input user list is : ",input_list)
+    print("pair count is : ",output)
 
