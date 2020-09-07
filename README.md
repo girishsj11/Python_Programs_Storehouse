@@ -79,7 +79,7 @@ Return the total number of matching pairs of socks that John can sell.
 
 ## ***Program5.py***
 
-   competation between user & system generated numbers to conculde who's winner among the random numbers which generates by user , system .
+   competition between user & system generated numbers to conculde who's winner among the random numbers which generates by user , system .
    
    
 ## ***Program6.py***
