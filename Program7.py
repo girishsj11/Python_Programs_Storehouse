@@ -19,7 +19,8 @@ def list_creation(user_list):
             print("Enter {} element : ".format(_))
             user_list.append(int(input()))
     else:
-        print(" please provide us the element_count value more than zero ")
+        print("Please provide the element_count value greater than zero ")
+        exit(0)
         
   
     
