@@ -126,7 +126,7 @@ to get the all lists of packages list into a text file , just type " pip freeze 
     - pip install -r <path_to_file>
             The above command will do the installation of each package & version from the file which user will specifies <path_to_file>.
      
-   ![Difference of show and search](Capture.PNG)**   
+   ![Difference of show and search](/Python_package_installation_over_cmd/Capture.PNG)**   
     
 
             
