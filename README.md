@@ -57,3 +57,18 @@
 ## ***Program7.py***
 
    **Program motive :-** There is a saying that "Data scientists spend 80% of their time cleaning data, and 20% of their time complaining about cleaning data." Let's see if you can write a function to help clean US zip code data. Given a string, it should return whether or not that string represents a valid zip code. For our purposes, a valid zip code is any string consisting of exactly 5 digits.
+
+## ***outlook_mail_send_automation***
+   **Program motive :-** Sending an automatic mail via outlook app in windows platform
+
+   **Pre-requisite things :**
+      - outlook application with email id
+ 
+   **Program execution :** 
+      - dispatching the outlook application
+      - create items based on request 
+      - make the receiver id (To item)
+      - have the subject line for the mail initiation 
+      - Write the body for the mail automation 
+      - if needed any attachment you can add it 
+      - then final option is to send 
