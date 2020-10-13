@@ -84,9 +84,9 @@
    **Program Description :**
    - Masking the user password we have 2 methods which can be implemented by using the 2 packages/modules :
      * getpass
-            Where getpass module will not echo's any password which being entered by user.
+       - Where getpass module will not echo's any password which being entered by user.
      * stdiomask
-            Where stdiomask will prompts the user password as asterix or '*'.
+       - Where stdiomask will prompts the user password as asterix or '*'.
      
          
 
