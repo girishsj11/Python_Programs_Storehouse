@@ -159,8 +159,9 @@ The program will ask user to enter a integer number , and will check the reverse
 
 The program will do the swapping of 2 lists which is been provided by user .
    
+## ***factorial_calculation***
    
-
+Program will ask user to give input integer number to get a its equivalent factorial number .
 
             
             
