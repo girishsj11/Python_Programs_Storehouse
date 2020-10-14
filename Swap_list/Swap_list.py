@@ -89,3 +89,32 @@ print(first_list)
 print(second_list)
 
 
+
+'''
+
+Way 3 : without using any third variable . 
+
+'''
+
+first_list=list()
+second_list=list()
+element_count=int(input("Enter the number of elements wanted to be in list:\n"))
+
+def list_elements(lists,element_count):
+    for i in range(element_count):
+        lists.append(int(input()))
+    print("Element entries are done")
+    print('\n')
+    
+print("Enter the first list elements here:")
+list_elements(first_list,element_count)
+print("Enter the second list elements here:")
+list_elements(second_list,element_count)        
+print("Before swap fucntion , The lists are : ")
+print(first_list)
+print(second_list)
+
+print("After swap , The lists are : ")
+first_list , second_list = second_list , first_list
+print(first_list)
+print(second_list)
