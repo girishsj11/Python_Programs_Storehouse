@@ -234,14 +234,14 @@ where the second user input digit will be inserting into each start + end positi
 
 input.txt file looks like below :
 
-![input_txt file](input_txt.PNG) 
+![input_txt file](/student_ranking_series/input_txt.PNG) 
 
 
 
 
 output.txt file should looks like below:
 
-![output_txt file](output_txt.PNG)
+![output_txt file](/student_ranking_series/output_txt.PNG)
 
 
 
