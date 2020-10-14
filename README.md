@@ -204,7 +204,8 @@ Program will do the sorting algorithm on the list with out using an inbuilt 'lis
 program will ask the user to enter one integer number & also ask user to enter one more digit number . 
 where the second user input digit will be inserting into each start + end position of digits in the first user input number , prints out the max one .
 
-> Example 
+>Examples:
+
      input = 1234 given number = 9 output= 12349 , 12394, 12934, 19234,91234
      output = print the max of output list --> 91234
    
