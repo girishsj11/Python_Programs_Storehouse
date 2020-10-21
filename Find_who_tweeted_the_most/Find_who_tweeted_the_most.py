@@ -142,7 +142,7 @@ def input_window():
         print(number_of_tweets)
         print(number_of_users)
         for index,name in enumerate(user_list):
-            print(user+' '+tweet_id+str(index+1))
+            print(name+' '+tweet_id+str(index+1))
             
         output_window(user_list) 
         
