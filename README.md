@@ -350,7 +350,7 @@ output.txt file should looks like below:
           
 ## ***Python Excercise***
 
-![Question PDF file](/Python_Excercise/Python_Excercises_session1.pdf)
+https://github.com/girishsj11/Python_Programs_Storehouse/blob/master/Python_Excercise/Python_Excercises_session1.pdf
    
 
 
