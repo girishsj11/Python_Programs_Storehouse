@@ -348,7 +348,9 @@ output.txt file should looks like below:
                   sehwag 3
                   kohli 3
           
+## ***Python Excercise***
 
+![Question PDF file](/Python_Excercise/Python_Excercises_session1.pdf)
    
 
 
