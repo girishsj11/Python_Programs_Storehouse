@@ -1,10 +1,12 @@
 # -*- coding: utf-8 -*-
 """
-Created on Mon Oct 19 20:26:25 2020
+Created on Tue Oct 20 13:31:07 2020
 
-@author: giri
+@author: girishsj
 """
+
 '''
+
 Assignment: Find who tweeted the most
 
 You will be given a list of tweets
@@ -110,10 +112,13 @@ sachin 3
 sehwag 3
 kohli 3
 
+
+
 '''
 
+
 def output_window(user_list):
-    print("\nOutput : ")
+    
     user_dict = dict()
     for i in set(user_list):
         user_dict[i]=user_list.count(i)
@@ -122,7 +127,7 @@ def output_window(user_list):
     
     for i in set(user_list):
         if (user_list.count(i)==value):
-            print(i+' '+str(value))
+            output_list.append((i+' '+str(value)))
             
     
         
@@ -144,11 +149,23 @@ def input_window():
         for index,name in enumerate(user_list):
             print(name+' '+tweet_id+str(index+1))
             
-        output_window(user_list) 
+        output_window(user_list)
+    print("\nOutput : ")
+    output_list.sort()
+    for i in output_list:
+        print(i)
         
         
 if __name__ == "__main__":
+    output_list = list()
     input_window()
     str(input("\n Press Enter to quit"))
+
+
+
+
+
+
+
 
 
