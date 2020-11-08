@@ -13,6 +13,7 @@ to cross verify you can check the size of both 'infile' and 'outfile' files.
 Ex: 
 	infile size =  2.06 MB (2167737 bytes)
 	outfile size = 10 KB (10028 bytes)
+	buffersize = 10000
 '''
 infile = "large_text.txt"
 outfile = "large_text_with_chunk_data.txt"
@@ -36,7 +37,7 @@ to cross verify once program runs , check the size of both 'infile' & 'outfile' 
 Ex: 
 	infile size =  2.06 MB (2167737 bytes)
 	outfile size = 2.07 MB (2173433 bytes)
-	
+	buffersize = 10000
 	counter calculation will be like = (infile size/buffersize) = 216.7737 ~= 217
 '''
 infile = "large_text.txt"
