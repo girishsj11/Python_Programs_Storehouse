@@ -12,7 +12,7 @@ to cross verify you can check the size of both 'infile' and 'outfile' files.
 
 
 infile = "large_text.txt"
-outfile = "large_text_copy.txt"
+outfile = "large_text_with_chunk_data.txt"
 buffersize = 10000 
 
 with open(infile,"r") as file_i:
