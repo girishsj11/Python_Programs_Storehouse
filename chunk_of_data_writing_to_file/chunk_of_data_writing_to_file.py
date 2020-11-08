@@ -4,10 +4,16 @@ Created on Sun Nov  8 13:03:38 2020
 
 @author: giri
 """
+'''
+where program will only writes the 'buffersize' bytes of data from 'infile' to 'outfile'.
+to cross verify you can check the size of both 'infile' and 'outfile' files.
+'''
+
+
 
 infile = "large_text.txt"
 outfile = "large_text_copy.txt"
-buffersize = 10000
+buffersize = 10000 
 
 with open(infile,"r") as file_i:
     with open(outfile,"w") as file_o:
