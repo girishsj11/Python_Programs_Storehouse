@@ -1,18 +1,19 @@
 ## Excercise 1
-    https://github.com/girishsj11/Python_Programs_Storehouse/blob/master/Python_Excercise/Python_Excercises_session1.pdf
+    
+https://github.com/girishsj11/Python_Programs_Storehouse/blob/master/Python_Excercise/Python_Excercises_session1.pdf
 
 ### circle_area.py
 
-  Write a python program which accept the radius of a circle from the user and compute the area.
+    Write a python program which accept the radius of a circle from the user and compute the area.
   
 ### counting_vowels.py
 
-  Write a function which takes as an input string s and returns the total number of vowels (a, e, i, o, 
-or u) that occur in the string.
+    Write a function which takes as an input string s and returns the total number of vowels (a, e, i, o, or u) that occur in the string.
 
 ### comma_separated_list_tuples.py
     
-    Write a Python Program which accepts a sequence of comma separated numbers from user and generate a list and tuple with those numbers.
+    Write a Python Program which accepts a sequence of comma separated numbers from user and generate a list 
+    and tuple with those numbers.
 
 ### file_extension.py
     
@@ -28,11 +29,13 @@ or u) that occur in the string.
   
 ### password_verification.py
 
-    Write a python function to check a password whether it is good or not? A good password is atleast 8 characters long and contains an uppercase letter, a lowercase letter and a number.
+    Write a python function to check a password whether it is good or not? A good password is atleast 8 characters long 
+    and contains an uppercase letter, a lowercase letter and a number.
   
 ### integer_collection.py
 
-    Read a collection of integers from the user. Display all negative integers, followed by all the zeros, followed by all the positive integers.
+    Read a collection of integers from the user. Display all negative integers, followed by all the zeros, 
+    followed by all the positive integers.
 
 ### swap_without_temp.py
 
