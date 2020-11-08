@@ -352,7 +352,9 @@ output.txt file should looks like below:
 
 https://github.com/girishsj11/Python_Programs_Storehouse/blob/master/Python_Excercise/Python_Excercises_session1.pdf
    
+## ***chunk_of_data_writing_to_file***
 
+> Program takes input text file & buffersize which defines the how many bytes of program will writtens to the output text file.
 
 
 
