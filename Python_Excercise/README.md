@@ -63,3 +63,8 @@ https://github.com/girishsj11/Python_Programs_Storehouse/blob/master/Python_Exce
 # Excercise 2
     
 https://github.com/girishsj11/Python_Programs_Storehouse/blob/master/Python_Excercise/PracticeExercise2.pdf 
+
+### Bank_account.py
+
+    Write a python program to simulate a BankAccount class such that it allows us to have a starting 
+    balance, make deposits, make withdrawals, and get the current balance.
