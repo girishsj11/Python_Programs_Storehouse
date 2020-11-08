@@ -8,7 +8,7 @@ https://github.com/girishsj11/Python_Programs_Storehouse/blob/master/Python_Exce
   
 ### counting_vowels.py
 
-    Write a function which takes as an input string s and returns the total number of vowels (a, e, i, o, or u) that occur in the string.
+    Write a function which takes as an input string s & returns the total number of vowels (a, e, i, o, or u) that occur in the string.
 
 ### comma_separated_list_tuples.py
     
