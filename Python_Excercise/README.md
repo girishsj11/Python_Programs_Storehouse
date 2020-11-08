@@ -29,7 +29,7 @@ https://github.com/girishsj11/Python_Programs_Storehouse/blob/master/Python_Exce
   
 ### password_verification.py
 
-    Write a python function to check a password whether it is good or not? A good password is atleast 8 characters long 
+    Write a python function to check a password whether it is good or not? A good password is at-least 8 characters long 
     and contains an uppercase letter, a lowercase letter and a number.
   
 ### integer_collection.py
