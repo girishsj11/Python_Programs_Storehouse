@@ -1,4 +1,4 @@
-## Excercise 1
+# Excercise 1
     
 https://github.com/girishsj11/Python_Programs_Storehouse/blob/master/Python_Excercise/Python_Excercises_session1.pdf
 
@@ -58,4 +58,8 @@ https://github.com/girishsj11/Python_Programs_Storehouse/blob/master/Python_Exce
     listed then your program should display a message indicating which noises the level is between. 
     Ensure that your program also generates reasonable output for a value smaller than the quietest 
     noise in the table, and for a value larger than the loudest noise in the table.
-   
+
+
+# Excercise 2
+    
+https://github.com/girishsj11/Python_Programs_Storehouse/blob/master/Python_Excercise/PracticeExercise2.pdf 
