@@ -34,5 +34,9 @@ to get the all lists of packages list into a text file , just type " pip freeze 
            
     - pip install -r <path_to_file>
             The above command will do the installation of each package & version from the file which user will specifies <path_to_file>.
+            
+    - pip install <package_name>==<version_number>
+            The above command will install specific version of package name.
+            Ex : pip install spyder==4.2.0
      
    ![Difference of show and search](Capture.PNG)**   
