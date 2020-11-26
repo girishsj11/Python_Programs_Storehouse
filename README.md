@@ -87,7 +87,10 @@
        - Where getpass module will not echo's any password which being entered by user.
      * stdiomask
        - Where stdiomask will prompts the user password as asterix or '*'.
-     
+
+## ***Program8.py***
+
+   Convert integer number to its equivalent binary code.
   
 ## ***Python_package_installation_over_cmd***
    **Program motive :-** Installing the required packages automatically via command prompt 
