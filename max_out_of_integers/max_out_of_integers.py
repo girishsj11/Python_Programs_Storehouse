@@ -25,7 +25,7 @@ input_number = str(input_number)
 user_num = str(user_num)
 
 for i in range(length+1):
-    value = int(input_number[:i]+usernum+input_number[i:])
+    value = int(input_number[:i]+user_num+input_number[i:])
     output_list.append(value)
 
 print("Values : ")
