@@ -20,9 +20,10 @@ user_num=int(input("Enter the number where it will inserting into the start & en
 output_list = list()
 
 # storing the input number as a list of strings 
-length = str(input_number)
+
 input_number = str(input_number)
 user_num = str(user_num)
+length = len(input_number)
 
 for i in range(length+1):
     value = int(input_number[:i]+user_num+input_number[i:])
