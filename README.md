@@ -367,3 +367,7 @@ Program to generate user defined set of numbers of fibonaci series.
 ## ***sorting_list_without_builtin_function***
 
 Program is used to display the sorting elements from list with out using the builtin sort() method.
+
+## ***File_Operations***
+
+Where program will search for a user input string on each lines of file untill unless it reaches to its end of line(EOF).
