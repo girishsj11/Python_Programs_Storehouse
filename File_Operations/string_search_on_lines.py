@@ -7,6 +7,7 @@ Created on Sat Jan  9 22:37:02 2021
 """
 
 file = str(input("Please provide us the input file path here : "))
+#file = '/sample.txt'
 string = str(input("Enter the string to be search on each line of a file : "))
 count = 0
 
