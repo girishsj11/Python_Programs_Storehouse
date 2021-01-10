@@ -371,3 +371,7 @@ Program is used to display the sorting elements from list with out using the bui
 ## ***File_Operations***
 
 Where program will search for a user input string on each lines of file untill unless it reaches to its end of line(EOF).
+
+## ***special_chars_in_string.py***
+
+Where program will asks user to enter the string with some special characters , then after that program will gives the total count of special characters are in string & which are those & how many are there.
