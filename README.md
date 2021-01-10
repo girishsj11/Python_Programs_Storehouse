@@ -375,3 +375,34 @@ Where program will search for a user input string on each lines of file untill u
 ## ***special_chars_in_string.py***
 
 Where program will asks user to enter the string with some special characters , then after that program will gives the total count of special characters are in string & which are those & how many are there.
+
+
+## ***lambda_filter_map.py***
+
+- **lambda**
+
+   In Python, an anonymous function is a function that is defined without a name.While normal functions are defined using the def keyword in Python, anonymous functions are defined using the lambda keyword.Hence, anonymous functions are also called lambda functions.
+   
+   Syntax :
+   
+   > lambda agruments : expression
+
+- **filter**
+
+   The filter() function in Python takes in a function and a list as arguments.
+The function is called with all the items in the list and a new list is returned which contains items for which the function evaluates to True.
+Here is an example use of filter() function to filter out only even numbers from a list.
+   
+   Syntax :
+   
+   > filter(function, iterable)
+   
+
+- **map**
+
+   The map() function applies a given to function to each item of an iterable and returns a list of the results.
+The returned value from map() (map object) can then be passed to functions like list() (to create a list), set() (to create a set) and so on.
+   
+   Syntax :
+   
+   > map(function, iterable)
