@@ -406,3 +406,10 @@ The returned value from map() (map object) can then be passed to functions like 
    Syntax :
    
    > map(function, iterable)
+   
+   
+## ***Conversion_of_list_to_dictionary.py***
+
+   The program will converts input list to a dictionary with using inbuilt method & also with out using an inbuilt method.
+
+
