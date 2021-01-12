@@ -85,21 +85,21 @@
 		    
       - list of all the escape sequences supported by Python
       
-      | First Header  | Second Header |
-      | ------------- | ------------- |
-      | \newline or \n | Backslash and newline ignored |
-      | \\\ | Backslash  |
-      | \\' | Single quote  |
-      | \\" | double quote |
-      | \a | ASCII Bell  |
-      | \b | ASCII Backspace |
-      | \f | ASCII Formfeed |
-      | \n | ASCII Linefeed |
-      | \r | ASCII Carriage Return |
-      | \t | ASCII Horizontal Tab |
-      | \v | ASCII Vertical Tab |
-      | \ooo  | Character with octal value ooo |
-      | \xHH  | Character with hexadecimal value HH |
+	      | First Header  | Second Header |
+	      | ------------- | ------------- |
+	      | \newline or \n | Backslash and newline ignored |
+	      | \\\ | Backslash  |
+	      | \\' | Single quote  |
+	      | \\" | double quote |
+	      | \a | ASCII Bell  |
+	      | \b | ASCII Backspace |
+	      | \f | ASCII Formfeed |
+	      | \n | ASCII Linefeed |
+	      | \r | ASCII Carriage Return |
+	      | \t | ASCII Horizontal Tab |
+	      | \v | ASCII Vertical Tab |
+	      | \ooo  | Character with octal value ooo |
+	      | \xHH  | Character with hexadecimal value HH |
       
       
       
