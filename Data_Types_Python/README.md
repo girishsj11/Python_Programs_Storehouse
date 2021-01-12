@@ -88,9 +88,9 @@
       | First Header  | Second Header |
       | ------------- | ------------- |
       | \newline or \n | Backslash and newline ignored |
-      | \\ | Backslash  |
-      | \' | Single quote  |
-      | \" | double quote |
+      | \\\ | Backslash  |
+      | \\' | Single quote  |
+      | \\" | double quote |
       | \a | ASCII Bell  |
       | \b | ASCII Backspace |
       | \f | ASCII Formfeed |
