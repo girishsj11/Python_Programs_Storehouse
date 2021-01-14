@@ -416,4 +416,6 @@ The returned value from map() (map object) can then be passed to functions like 
 
    The program is used to generate a prime numbers in range of lower & upper values.
 
+## ***reverse_string_with_capitalize.py***
 
+   The program will asks user to enter a string & it will reverse the each words by capitalizing the first character.
