@@ -411,5 +411,9 @@ The returned value from map() (map object) can then be passed to functions like 
 ## ***Conversion_of_list_to_dictionary.py***
 
    The program will converts input list to a dictionary with using inbuilt method & also with out using an inbuilt method.
+   
+## ***prime_numbers_generations.py***
+
+   The program is used to generate a prime numbers in range of lower & upper values.
 
 
