@@ -17,6 +17,8 @@ def is_prime(num):
     else:
         return True
 
-if __name__ == "__main__":    
-    list(filter(is_prime,range(1,20)))
+if __name__ == "__main__":
+    lower = int(input("Enter the lower range to generate prime numbers : "))
+    upper = int(input("Enter the upper range to generate prime numbers : "))
+    list(filter(is_prime,range(lower,upper)))
   
