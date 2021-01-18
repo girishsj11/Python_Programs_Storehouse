@@ -419,3 +419,8 @@ The returned value from map() (map object) can then be passed to functions like 
 ## ***reverse_string_with_capitalize.py***
 
    The program will asks user to enter a string & it will reverse the each words by capitalizing the first character.
+   
+   
+## ***Adding_bullet_points_to_paragraph.py***
+
+   Where program will adds a bullet * point to new line of text in a paragraph.
