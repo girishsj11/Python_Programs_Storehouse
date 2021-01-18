@@ -5,7 +5,7 @@ Created on Sat Jan  9 10:23:53 2021
 
 @author: giri
 
-Sorting the list elements without using builtin functions
+Sorting the list elements without using builtin functions with different technique
 """
 
 def list_creation():
@@ -26,18 +26,15 @@ def list_creation():
 def main():
     in_list = list_creation()
     print("list created by user Before sorting: {}  ".format(in_list))
-    out_list = list()
+    lenght = len(in_list)
     if(len(in_list)>0):
-        while in_list:
-            minimum = in_list[0]
-            for i in in_list:
-                if i < minimum:
-                    minimum = i
+        for i in range(length):
+            for j in range(i+1,lenght):
+                #swapping the values
+                in_list[i] , in_list[j] = in_list[j] , in_list[i]
+        
             
-            out_list.append(minimum)
-            in_list.remove(minimum)
-            
-        print("list created by user After sorting : {} ",format(out_list))
+        print("list created by user After sorting : {} ",format(in_list))
         
     else:
         print()
