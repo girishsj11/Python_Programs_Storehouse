@@ -5,6 +5,26 @@ Created on Thu Jan 14 20:53:39 2021
 @author: giri
 """
 
+'''
+
+Checking the entered string is palindrome or not :
+
+def checkPalindrome(inputString):
+    emptystring = ''
+    for char in inputString:
+        emptystring = char + emptystring
+    
+    if(emptystring == inputString):
+        return True
+    return False
+
+
+
+
+''''
+
+
+
 def main():
     '''
     Accepts a string from user 
