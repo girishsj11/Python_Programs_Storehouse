@@ -18,3 +18,18 @@ sleep_in(True, False) → False
 sleep_in(False, True) → True
 '''
 
+def sleep_in(weekday, vacation):
+  if(weekday==True and vacation==True):
+    return True
+  if(weekday == True):
+    return False
+  elif(vacation == True):
+    return True
+  else:
+    return True
+
+if __name__ == "__main__":
+    print(sleep_in(True, False))
+    print(sleep_in(True, True))
+    print(sleep_in(False, False))
+    print(sleep_in(False, True))
