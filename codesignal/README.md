@@ -14,6 +14,26 @@ Convert the uppercase letters to lowercase.
 
 > For s = "Hello", the output should be - amendTheSentence(s) = "hello"
 
+## baseConversion.py
+
+   Implement a function that, given an integer number n and a base x, converts n from base x to base 16.
+
+***Example:***
+> For n = "1302" and x = 5, the output should be - baseConversion(n, x) = "ca".
+
+> Here's why: 13025 = 20210 = ca16.
+
+
+## countBits.py
+
+  Implement a function that, given an integer n, uses a specific method on it and returns the number of bits in its binary representation.
+Note: in this task and most of the following tasks you will be given a code snippet with some part of it replaced by the ellipsis (...). 
+Only this part is allowed to be changed.
+
+***Example:***
+> For n = 50, the output should be - countBits(n) = 6.
+50(10) = 110010(2), a number that consists of 6 digits. Thus, the output should be 6.
+
 
 ## firstDuplicate.py
 
@@ -43,6 +63,28 @@ There are 2 duplicates: numbers 2 and 3. The second occurrence of 3 has a smalle
 ***[output] integer***
 
 The element in a that occurs in the array more than once and has the minimal index for its second occurrence. If there are no such elements, return -1.
+
+
+## modulus.py
+
+It frustrates you more than you'd like to admit that the modulus operator in Python can be applied to non-integer values. 
+When you write code, you expect the result of the modulus operator to always be an integer, but thanks to Python this isn't always the case.
+
+To fix this, you've decided to write your own modulus operator as a function. Your task is to implement a function that, given a number n, returns -1 if this number is not an integer and n % 2 otherwise. It is guaranteed that if the number represents an integer, it will be written without a decimal point.
+
+***Example:***
+> For n = 15, the output should be - modulus(n) = 1;
+
+> For n = 23.12, the output should be - modulus(n) = -1.
+
+
+## simpleSort.py
+
+To understand how efficient the built-in Python sorting function is, you decided to implement your own simple sorting algorithm and compare its speed to the speed of the Python sorting. Write a function that, given an array of integers arr, sorts its elements in ascending order.
+Hint: with Python it's possible to swap several elements in a single line. To solve the task, use this knowledge to fill in both of the blanks (...).
+
+***Example:***
+> For arr = [2,4,1,5], the output should be - simpleSort(arr) = [1, 2, 4, 5].
 
 
 ## strstr.py
