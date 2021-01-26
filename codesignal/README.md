@@ -1,6 +1,6 @@
-## CodeSignal app Python challenges 
+# CodeSignal app Python challenges 
 
-### amendTheSentence.py
+## amendTheSentence.py
 
 You have been given a string s, which is supposed to be a sentence. However, 
 someone forgot to put spaces between the different words, and for some reason they capitalized the first letter of every word. 
@@ -15,7 +15,7 @@ Convert the uppercase letters to lowercase.
 > For s = "Hello", the output should be - amendTheSentence(s) = "hello"
 
 
-### firstDuplicate.py
+## firstDuplicate.py
 
 Given an array a that contains only numbers in the range from 1 to a.length, 
 find the first duplicate number for which the second occurrence has the minimal index. 
@@ -45,7 +45,7 @@ There are 2 duplicates: numbers 2 and 3. The second occurrence of 3 has a smalle
 The element in a that occurs in the array more than once and has the minimal index for its second occurrence. If there are no such elements, return -1.
 
 
-### strstr.py
+## strstr.py
 
 Avoid using built-in functions to solve this challenge. Implement them yourself, since this is what you would be asked to do during a real interview.
 Implement a function that takes two strings, s and x, as arguments and finds the first occurrence of the string x in s. 
