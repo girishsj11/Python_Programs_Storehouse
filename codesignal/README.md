@@ -68,6 +68,9 @@ There are 2 duplicates: numbers 2 and 3. The second occurrence of 3 has a smalle
 
 The element in a that occurs in the array more than once and has the minimal index for its second occurrence. If there are no such elements, return -1.
 
+## largestNumber.py
+
+For n = 2, the output should be largestNumber(n) = 99.
 
 ## modulus.py
 
