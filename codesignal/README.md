@@ -1,5 +1,9 @@
 # CodeSignal app Python challenges 
 
+## addTwoDigits.py
+
+For n = 29, the output should be addTwoDigits(n) = 11.
+
 ## amendTheSentence.py
 
 You have been given a string s, which is supposed to be a sentence. However, 
