@@ -38,5 +38,11 @@ to get the all lists of packages list into a text file , just type " pip freeze 
     - pip install <package_name>==<version_number>
             The above command will install specific version of package name.
             Ex : pip install spyder==4.2.0
+            
+    - pip install --upgrade <package_name>
+            The above command will installs the upgraded version of package onto system.
+            
+    - pip check <package_name>
+            The above command will shows the whether package is being installed without any issues & making sure that there is no breakage.
      
    ![Difference of show and search](Capture.PNG)**   
