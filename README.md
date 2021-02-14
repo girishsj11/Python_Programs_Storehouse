@@ -128,6 +128,12 @@ to get the all lists of packages list into a text file , just type " pip freeze 
            
     - pip install -r <path_to_file>
             The above command will do the installation of each package & version from the file which user will specifies <path_to_file>.
+            
+    - pip install --upgrade <package_name>
+            The above command will installs the upgraded version of package onto system.
+            
+    - pip check <package_name>
+            The above command will shows the whether package is being installed without any issues & making sure that there is no breakage.
      
    ![Difference of show and search](/Python_package_installation_over_cmd/Capture.PNG)**   
     
