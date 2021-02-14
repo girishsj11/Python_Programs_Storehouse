@@ -10,3 +10,6 @@ We sleep in if it is not a weekday or we're on vacation. Return True if we sleep
 - sleep_in(False, False) → True
 - sleep_in(True, False) → False
 - sleep_in(False, True) → True
+
+
+[![Watch the video](https://img.youtube.com/vi/T-D1KVIuvjA/maxresdefault.jpg)](https://youtu.be/T-D1KVIuvjA)
