@@ -92,7 +92,7 @@
 
    Convert integer number to its equivalent binary code.
  
-## ***Program_9.py***
+## ***Program9.py***
 
    Program to make the list with unique elements in it which means removing duplicates from it.
    
