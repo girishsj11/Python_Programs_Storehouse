@@ -91,8 +91,13 @@
 ## ***Program8.py***
 
    Convert integer number to its equivalent binary code.
-  
+ 
+## ***Program_9.py***
+
+   Program to make the list with unique elements in it which means removing duplicates from it.
+   
 ## ***Python_package_installation_over_cmd***
+
    **Program motive :-** Installing the required packages automatically via command prompt 
   
    **Pre-requisite things :**
