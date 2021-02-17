@@ -10,7 +10,7 @@ We can make it by passing the list into set method , as we are aware of this set
 
 def list_creation(in_list):
   print("Please enter the numbers by including space between each elements and enter some duplicate values : \n ")
-  in_list = list(map(lambda x:x , input().split(' ')))
+  in_list = list(map(lambda x:int(x) , input().split(' ')))
   return in_list
 
 if __name__ == "__main__" :
