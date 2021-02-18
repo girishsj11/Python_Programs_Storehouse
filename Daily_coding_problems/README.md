@@ -11,3 +11,10 @@ For example, given [10, 15, 3, 7] and k of 17, return true since 10 + 7 is 17.
    - Given an array of integers, find the first missing positive integer in linear time and constant space. In other words, 
 find the lowest positive integer that does not exist in the array. The array can contain duplicates and negative numbers as well.
 For example, the input [3, 4, -1, 1] should give 2. The input [1, 2, 0] should give 3
+
+  **daily_coding_410.py**
+  - You are given an array X of floating-point numbers x1, x2, ... xn. These can be rounded up or down to create a corresponding array Y of integers y1, y2, ... yn.
+Write an algorithm that finds an appropriate Y array with the following properties:
+      - The rounded sums of both arrays should be equal.
+      - The absolute pairwise difference between elements is minimized. In other words, |x1- y1| + |x2- y2| + ... + |xn- yn| should be as small as possible.
+        > For example, suppose your input is [1.3, 2.3, 4.4]. In this case you cannot do better than [1, 2, 5], which has an absolute difference of |1.3 - 1| + |2.3 - 2| + |4.4 - 5| = 1.
