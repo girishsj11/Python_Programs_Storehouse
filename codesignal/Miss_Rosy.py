@@ -60,7 +60,8 @@ def main(N,List_elements):
         
         k +=1
     
-    print(out_elements)
+    for element in out_elements:
+        print(element,end=' ')
 
 
 if __name__ == "__main__":
