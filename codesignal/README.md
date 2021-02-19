@@ -155,10 +155,10 @@ The second line of input consists of the list (N space-separated elements) prese
 Print the roll number of students who were absent in class separated by space.
 
 ***Example:***
-> Input
+Input
 > 7
 
 > 1 2 3 3 4 6 4
 
-> Output
+Output
 > 5 7
