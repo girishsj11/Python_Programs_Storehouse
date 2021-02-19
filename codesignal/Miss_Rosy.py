@@ -65,7 +65,7 @@ def main(N,List_elements):
 
 
 if __name__ == "__main__":
-    N = 7
-    List_elements = [1,2,3,3,4,6,4]
+    N = int(input())
+    List_elements = list(map(lambda x:int(x) , input().split(' ')))
     main(N,List_elements)
 
