@@ -168,6 +168,7 @@ For example, the input [3, 4, -1, 1] should give 2. The input [1, 2, 0] should g
 ## ***reverse_number_verification or palindrome checks***
 
 The program will ask user to enter a integer number , and will check the reverse of it is same as original or not.
+Which is similar to check the given string has a palindrome in it or not .
 
 ## ***Swap list***
 
