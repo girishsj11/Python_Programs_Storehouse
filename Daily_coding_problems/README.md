@@ -18,3 +18,34 @@ Write an algorithm that finds an appropriate Y array with the following properti
       - The rounded sums of both arrays should be equal.
       - The absolute pairwise difference between elements is minimized. In other words, |x1- y1| + |x2- y2| + ... + |xn- yn| should be as small as possible.
         > For example, suppose your input is [1.3, 2.3, 4.4]. In this case you cannot do better than [1, 2, 5], which has an absolute difference of |1.3 - 1| + |2.3 - 2| + |4.4 - 5| = 1.
+        
+        
+  **daily_coding_416.py**
+  
+  - You are in an infinite 2D grid where you can move in any of the 8 directions:
+  > (x,y) to
+  > 
+  > (x+1, y),
+  > 
+  > (x - 1, y),
+  > 
+  > (x, y+1),
+  > 
+  > (x, y-1),
+  > 
+  > (x-1, y-1),
+  > 
+  > (x+1,y+1),
+  > 
+  > (x-1,y+1),
+  > 
+  > (x+1,y-1)
+
+  - You are given a sequence of points and the order in which you need to cover the points. Give the minimum number of steps in which you can achieve it. You start from the first point.
+  Example:
+  
+  > Input: [(0, 0), (1, 1), (1, 2)]
+  
+  > Output: 2
+  
+  > It takes 1 step to move from (0, 0) to (1, 1). It takes one more step to move from (1, 1) to (1, 2).
