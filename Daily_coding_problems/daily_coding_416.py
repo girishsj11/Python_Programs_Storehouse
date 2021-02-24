@@ -28,24 +28,20 @@ def function(l):
     x = l[0][0]
     y = l[0][1]
     counter = 0
-    flag = bool
-    for i in range(1,len(l)):
-	    x_next = l[i][0]
-	    y_next = l[i][1]
-	    if((x_next in (x,x+1,x-1)) and (y_next in (y,y+1,y-1))):
-		    flag = True
-		    x = x_next
-		    y = y_next
-	    else:
-		    flag = False
-	    if(flag == True):
-		    counter += 1
-	    else:
-		    counter -= 1
-    return counter
+    for i in range(1, len(l)):
+        x_next = l[i][0]
+        y_next = l[i][1]
+        if ((x_next in (x, x + 1, x - 1)) and (y_next in (y, y + 1, y - 1))):
+            x = x_next
+            y = y_next
+            counter += 1
+        else:
+            counter -= 1
+            return ("its against the rules which is declared above !!! ")
+    return ("minimum number of steps to achieve to reach end co-ordination from starting point : ", counter)
+
 
 
 if __name__ == "__main__":
-    list1  = [(0, 0), (1, 1), (1, 2), (2, 3)] #enter your list here
-    print("minimum number of steps to achieve to reach end co-ordination from starting point : ",function(list1))
-
+    list1  = [(0, 0), (1, 1), (1, 3)] #enter your list here
+    print(function(list1))
