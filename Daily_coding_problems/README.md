@@ -40,7 +40,7 @@ Write an algorithm that finds an appropriate Y array with the following properti
  
   > [(0, 0), (1, 1), (1, 2)]
   
-  *output: *
+  *output:*
   
   > 2
   
