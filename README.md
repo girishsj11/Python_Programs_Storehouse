@@ -448,3 +448,7 @@ The returned value from map() (map object) can then be passed to functions like 
 ## ***Adding_bullet_points_to_paragraph.py***
 
    Where program will adds a bullet * point to new line of text in a paragraph.
+
+## ***finding_permutations.py***
+
+   Program to display & calculate the all the possible permutations for the given user string.
