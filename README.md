@@ -452,3 +452,7 @@ The returned value from map() (map object) can then be passed to functions like 
 ## ***finding_permutations.py***
 
    Program to display & calculate the all the possible permutations for the given user string.
+
+## ***Terminate_program.py***
+
+   By terminating the whole program for certain condition , we can call 'os' module & call exit function from it.
