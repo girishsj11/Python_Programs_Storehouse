@@ -456,3 +456,8 @@ The returned value from map() (map object) can then be passed to functions like 
 ## ***Terminate_program.py***
 
    By terminating the whole program for certain condition , we can call 'os' module & call exit function from it.
+
+## ***String_validators.py***
+
+   Program to check built-in string validation methods for basic data. It can check if a string is composed of alphabetical characters, alphanumeric characters, digits, etc.
+   Task is to find out if the string contains: alphanumeric characters, alphabetical characters, digits, lowercase and uppercase characters. 
