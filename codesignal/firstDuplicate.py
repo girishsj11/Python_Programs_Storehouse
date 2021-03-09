@@ -38,17 +38,11 @@ The element in a that occurs in the array more than once and has the minimal ind
 
 
 def firstDuplicate(a):
-    a_dict = dict()
-    for index,value in enumerate(a):
-        if(a.count(value)>1):
-            a_dict[index]=value
-    #print(a_dict)
-    #print("Keys : ",a_dict.keys())
-    #print("values : ",a_dict.values())
-    values = list(a_dict.values())
-    for i in range(len(values)-1):
-        if(values[i]==values[i+1]):
-            return values[i]
+    a_set = set()
+    for element in a:
+        if(element in a_set):
+            return element
+        a_set.add(element)
     return -1
 
 if __name__ == "__main__":
