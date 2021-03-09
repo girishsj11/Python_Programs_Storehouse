@@ -141,7 +141,11 @@ to get the all lists of packages list into a text file , just type " pip freeze 
             The above command will shows the whether package is being installed without any issues & making sure that there is no breakage.
      
    ![Difference of show and search](/Python_package_installation_over_cmd/Capture.PNG)**   
-    
+   
+## ***Program10.py***
+
+   program to sort out only the positive numbers on the list , leave the negative numbers as it is.
+display the list .
 
 ## ***FizzBuzz***
 
