@@ -44,4 +44,4 @@ def palindrome(string):
     
 if __name__ == "__main__":
     string = str(input("Enter the string which you wanted check whether its palindrome in it : "))
-    print(palindrome(string))
+    palindrome(string)
