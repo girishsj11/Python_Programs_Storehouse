@@ -27,27 +27,21 @@ if __name__ == "__main__":
     number = int(input("Enter the integer number to check whether original & its reversal is same or not :"))
     print("The original and reverse number is the same:", reverseCheck(number))
 
-    
+
+# ------------------------------------------------------------------***************************************------------------------------------------------#
 #Which is similar to check the given string has a palindrome in it or not 
-
+import math
 def palindrome(string):
-    string_list = list()
-    for char in string:
-        if(string.count(char)!=1):
-            string_list.append(char)
-    length = len(string_list)
-    #print("String list {} and its length is : {}".format(string_list,length))
-    if(length==0):
-        return "Not a palindrome !!"
-    if(length % 2 ==0):
-        if(len(set(string_list))==(length//2)):
-            return ("its palindrome!!")
-        else:
-            return ("Not a palindrome")
-
-
-
-
+    length = math.ceil(len(string)/2)
+    count = 0
+    for i in range(length):
+        if(string[i]==string[-i-1]):
+            count+=1
+    if(count==length):
+        print("Given string is a palindrome")
+    else:
+        print("Given string is not a palindrome")
+    
 if __name__ == "__main__":
     string = str(input("Enter the string which you wanted check whether its palindrome in it : "))
     print(palindrome(string))
