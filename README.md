@@ -402,9 +402,19 @@ Where python program will try to print the file/directory structure in Tree way 
 
 ## ***special_chars_in_string.py***
 
-Where program will asks user to enter the string with some special characters , then after that program will gives the total count of special characters are in string & which are those & how many are there.
+   Where program will asks user to enter the string with some special characters , then after that program will gives the total count of special characters are in string & which are those & how many are there.
 
+## ***nslookup_cmd.py***
 
+   Program to run 'nslookup <url>' cmd on command prompt , so once it ran it will give us the DNS IP address we have to store it in another output file with specific
+url & IP address . 
+
+Pre-requisite : 
+    1. Internet connection
+    2. Python installed
+    3. input.txt file where all urls are being stored
+   
+   
 ## ***lambda_filter_map.py***
 
 - **lambda**
