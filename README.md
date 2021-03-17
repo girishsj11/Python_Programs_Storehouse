@@ -410,9 +410,9 @@ Where python program will try to print the file/directory structure in Tree way 
 url & IP address . 
 
 Pre-requisite : 
-    1. Internet connection
-    2. Python installed
-    3. input.txt file where all urls are being stored
+1. Internet connection
+2. Python installed
+3. input.txt file where all urls are being stored
    
    
 ## ***lambda_filter_map.py***
