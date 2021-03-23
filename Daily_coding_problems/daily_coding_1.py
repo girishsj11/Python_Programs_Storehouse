@@ -10,10 +10,10 @@ print("Enter the list elements with space : ")
 input_list  = list(map(int, input().split()))
 Target = int(input("Enter the target number : "))
 flag = bool
-for i in input_list:
+for index,value in enumerate(input_list):
     
-    temp = Target-i
-    if(temp in input_list):
+    temp = Target-value
+    if(temp in input_list[index+1:]):
         flag = True
         break
     else:
