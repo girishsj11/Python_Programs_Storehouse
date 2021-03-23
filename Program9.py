@@ -41,7 +41,7 @@ def remove():
     for element in in_list:
         if(in_list.count(element)>1):
             in_list.remove(element)
-    print("List with only unique values in it : ",list(set(in_list)))
+    print("List with only unique values in it : ",in_list)
 
 if __name__ == "__main__" :
     remove()
