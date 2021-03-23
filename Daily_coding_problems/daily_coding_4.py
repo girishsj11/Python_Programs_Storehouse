@@ -21,6 +21,11 @@ for i in range(len(input_list)):
        break
     continue
 
+if(Target==0):
+    Target+=1
+    while(Target in input_list):
+        Target+=1
+
 print(Target)
         
     
