@@ -12,7 +12,7 @@ in a simple words : searching a Target value among the sorted list/array.
 
 def Binary_search(array,element,start_index,end_index):
     if(start_index>end_index):
-        return -1
+        return -1 #if index value is -1 which means element is not there in array list
         
     mid_index = (start_index+end_index)//2
     
@@ -33,3 +33,4 @@ if __name__ == "__main__":
     element = int(input("Enter the number which you wanted to search it in array list :"))
     array.sort() #keeping it in a sorted way for the safer side(if user forgots to enter the values in a sorted way)
     print("{} is the index of the element {} is searched in a given array {} ".format(Binary_search(array,element,0,len(array)-1),element,array))
+    #if index value is -1 which means element is not there in array list
