@@ -497,9 +497,11 @@ then it has to prompt the length of list/array , and above procedure has to be r
 > Example : 
 
 input : 
+
     array = [1,2,5,4,3,0,-2,8,2]
 
 output :
+
     minimum value : -2 ,length of array :  8
     minimum value :  0 ,length of array :  7
     minimum value :  1 ,length of array :  6
