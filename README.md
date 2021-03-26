@@ -488,3 +488,23 @@ The returned value from map() (map object) can then be passed to functions like 
 - If x matches with the middle element, we return the mid index.
 - Else if x is greater than the mid element, then x can only lie in the right (greater) half subarray after the mid element. Then we apply the algorithm again for the right half.
 - Else if x is smaller, the target x must lie in the left (lower) half. So we apply the algorithm for the left half.
+
+## ***min_removal.py***
+
+   Program to identify the minimum number among the given list & it has to delete that minimum number by prompting on a sceen , 
+then it has to prompt the length of list/array , and above procedure has to be repeat untill the length of an array is 0.
+
+> Example : 
+
+input : 
+    array = [1,2,5,4,3,0,-2,8,2]
+
+output :
+    minimum value : -2 ,length of array :  8
+    minimum value :  0 ,length of array :  7
+    minimum value :  1 ,length of array :  6
+    minimum value :  2 ,length of array :  4
+    minimum value :  3 ,length of array :  3
+    minimum value :  4 ,length of array :  2
+    minimum value :  5 ,length of array :  1
+    minimum value :  8 ,length of array :  0
