@@ -34,6 +34,10 @@ def FizzBuzz(start,end):
         #way3
         for i in range(start,end+1):
             print(('Fizz'*(i%3<1))+('Buzz'*(i%5<1)) or i)
+            
+            
+        #way4
+        [print('FizzBuzz') if(i%3==0 and i%5==0) else print('Fizz') if(i%3==0) else print('Buzz') if(i%5==0) else print(i) for i in range(start,end)]
         '''
     else :
         print("Please provide the end value > start value")
