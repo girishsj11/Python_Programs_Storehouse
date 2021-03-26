@@ -475,3 +475,16 @@ The returned value from map() (map object) can then be passed to functions like 
 
    Program to check built-in string validation methods for basic data. It can check if a string is composed of alphabetical characters, alphanumeric characters, digits, etc.
    Task is to find out if the string contains: alphanumeric characters, alphabetical characters, digits, lowercase and uppercase characters. 
+   
+## ***Bubble_sort.py***
+
+   Bubble Sort is the simplest sorting algorithm that works by repeatedly swapping the adjacent elements if they are in wrong order.
+   
+## ***Binary_search.py***
+
+   This search algorithm takes advantage of a collection of elements that is already sorted by ignoring half of the elements after just one comparison. 
+
+- Compare x with the middle element.
+- If x matches with the middle element, we return the mid index.
+- Else if x is greater than the mid element, then x can only lie in the right (greater) half subarray after the mid element. Then we apply the algorithm again for the right half.
+- Else if x is smaller, the target x must lie in the left (lower) half. So we apply the algorithm for the left half.
