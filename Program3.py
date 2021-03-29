@@ -38,7 +38,7 @@ Only one valid answer exists.
 
 
 
-
+'''
 
 class Solution(object):
     def twoSum(self, nums, target):
@@ -57,3 +57,13 @@ class Solution(object):
             else:
                 continue
         return output
+'''
+
+def twoSum(num_array, target):
+        temp = dict()
+        for index, value in enumerate(num_array):
+            remaining = target - value
+            if remaining in temp:
+                return [temp[remaining], index]
+            temp[value] = index
+        return (list(temp.values()))   
