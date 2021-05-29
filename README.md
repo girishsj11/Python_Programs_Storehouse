@@ -510,3 +510,10 @@ output :
     minimum value :  4 ,length of array :  2
     minimum value :  5 ,length of array :  1
     minimum value :  8 ,length of array :  0
+
+   
+## ***anagram_check.py***   
+
+   An anagram is a word or phrase formed by rearranging the letters of a different word or phrase, typically using all the original letters exactly once. 
+> For example: the word anagram itself can be rearranged into nagaram, also the word binary into brainy and the word adobe into abode.
+   
