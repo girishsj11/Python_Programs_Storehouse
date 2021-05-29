@@ -147,6 +147,13 @@ to get the all lists of packages list into a text file , just type " pip freeze 
    program to sort out only the positive numbers on the list , leave the negative numbers as it is.
 display the list .
 
+## ***Program11.py***
+
+   separating the zero's from list to end of the array & sorting the other numbers
+(*rather than 0) in a order.
+
+> Ex : input = [1,5,0,3,0,0,2,4] output : [1,2,3,4,5,0,0,0]
+
 ## ***FizzBuzz***
 
    **Program Description :** 
