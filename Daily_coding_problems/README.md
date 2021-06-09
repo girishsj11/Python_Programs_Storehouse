@@ -45,3 +45,9 @@ Write an algorithm that finds an appropriate Y array with the following properti
   > 2
   
   > It takes 1 step to move from (0, 0) to (1, 1). It takes one more step to move from (1, 1) to (1, 2).
+
+ **daily_coding_518.py**
+
+ - Given an array of numbers and a number k, determine if there are three entries in the array ,
+which add up to the specified number k. For example, given [20, 303, 3, 4, 25] and k = 49, 
+return true as 20 + 4 + 25 = 49
