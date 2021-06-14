@@ -1,20 +1,27 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Mon Jun 14 11:39:27 2021
+
+@author: gsjeenax
+"""
+
 import os
 
 def Tree(root_path):
-	print(root_path)
-	for path,dirs,files in os.walk(root_path):
-		#print(path)
-		if(len(dirs)!=0):
-			for each in dirs:
-				print('|')
-				print(' -----',each)
-				for file in files:
-					print('     |')
-					print('      -----',file)
-		else:
-			for file in files:
-				print('|')
-				print(' -----',file)
+    print(root_path)
+    for path,dirs,files in os.walk(root_path):
+	#print(path)
+	if(len(dirs)!=0):
+	    for each in dirs:
+		print('|')
+		print(' -----',each)
+		for file in files:
+		    print('     |')
+		    print('      -----',file)
+	else:
+	    for file in files:
+		print('|')
+		print(' -----',file)
 		#print('\n')
 
 if __name__ == "__main__":
