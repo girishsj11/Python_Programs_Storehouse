@@ -1,0 +1,1 @@
+python C:\Users\gsjeenax\start_up.py
