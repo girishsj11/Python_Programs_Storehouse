@@ -524,3 +524,7 @@ output :
    An anagram is a word or phrase formed by rearranging the letters of a different word or phrase, typically using all the original letters exactly once. 
 > For example: the word anagram itself can be rearranged into nagaram, also the word binary into brainy and the word adobe into abode.
    
+## ***start_up***
+   
+   A startup program has to run the python script on every restarts of machine based on the first time input counter value.
+> We have written start_up.py script which shows few information before it restarts the local machine , and we have to place the start_up.cmd file in startup folder(shell:startup on run command).
