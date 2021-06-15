@@ -18,7 +18,7 @@ def restart():
 
 def main_task():
     #provide the file name path here , no need to create at first time . we just need to give the path with file name 
-    file = r"C:\Users\gsjeenax\startup_counter.txt"
+    file = r"C:\Users\girishsj\startup_counter.txt"
     subprocess.call(['whoami'])
     subprocess.call(['hostname'])
 
