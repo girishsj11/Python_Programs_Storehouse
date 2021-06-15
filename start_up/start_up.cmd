@@ -1,1 +1,1 @@
-python C:\Users\gsjeenax\start_up.py
+python C:\Users\girishsj\start_up.py
