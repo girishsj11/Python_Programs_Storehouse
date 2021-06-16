@@ -154,6 +154,13 @@ display the list .
 
 > Ex : input = [1,5,0,3,0,0,2,4] output : [1,2,3,4,5,0,0,0]
 
+## ***Program12.py***
+
+   Program to find out the odd & even numbers from the list of numbers or range of numbers.
+> Way1 : when the number is been anded with 1 (*binary) ,then if the LSB or last bit of element is 1 then it will be odd number, else even number.
+
+> Way2 : when the number is been devided by 2 ,then if the gets remainder 1 then it will be odd number, else even number.
+
 ## ***FizzBuzz***
 
    **Program Description :** 
