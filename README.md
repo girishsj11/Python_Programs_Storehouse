@@ -161,6 +161,10 @@ display the list .
 
 > Way2 : when the number is been devided by 2 ,then if the gets remainder 1 then it will be odd number, else even number.
 
+## ***Program13.py***
+   
+   A function should accepts a string as input &  output wants to either capitalize or decapitalize ,each letter based on whether its index number (its position within the string) is divisible by 2.
+
 ## ***FizzBuzz***
 
    **Program Description :** 
