@@ -13,26 +13,10 @@ def sort_out(dictionary):
     '''
     Write a python script to sort a dictionary by value.
     '''
-    value_list = list()
-    out_dictionary = dict()
-    
-    for value in dictionary.values():
-        value_list.append(value)
+    list_items = list(dictionary.items())
+    list_items.sort(key=lambda x:x[1])
+    print("Sorted Dictionary based on value is : ",dict(list_items))
         
-    value_list.sort()
-    
-    for value in value_list:
-        for key in dictionary.keys():
-            if(value == dictionary.get(key)):
-                out_dictionary[key]=value
-            else:
-                continue
-            
-    print("sorted dictionary based on dict values : ")
-    print("Before sorting : {} \nAfter sorting : {} ".format(dictionary,out_dictionary))
-        
-    
-
 
 if __name__ == "__main__":
     #provide the dictionary below 
